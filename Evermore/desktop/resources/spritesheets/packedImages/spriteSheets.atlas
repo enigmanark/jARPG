@@ -1,0 +1,90 @@
+
+spriteSheets.png
+size: 512,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+W-longSword-E
+  rotate: false
+  xy: 2, 134
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+W-longSword-N
+  rotate: false
+  xy: 2, 68
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+W-longSword-S
+  rotate: false
+  xy: 124, 134
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+W-longSword-W
+  rotate: false
+  xy: 2, 2
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+charSheet1-E
+  rotate: false
+  xy: 124, 68
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+charSheet1-N
+  rotate: false
+  xy: 246, 134
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+charSheet1-S
+  rotate: false
+  xy: 124, 2
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+charSheet1-W
+  rotate: false
+  xy: 246, 68
+  size: 120, 64
+  orig: 120, 64
+  offset: 0, 0
+  index: -1
+charSheet2-E
+  rotate: false
+  xy: 368, 134
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+charSheet2-N
+  rotate: false
+  xy: 246, 2
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+charSheet2-S
+  rotate: false
+  xy: 368, 68
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+charSheet2-W
+  rotate: false
+  xy: 344, 2
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1

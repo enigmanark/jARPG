@@ -1,0 +1,12 @@
+charSheet2-E.png
+charSheet2-W.png
+charSheet1-N.png
+charSheet2-S.png
+W-longSword-W.png
+W-longSword-E.png
+charSheet1-W.png
+charSheet1-E.png
+W-longSword-S.png
+W-longSword-N.png
+charSheet1-S.png
+charSheet2-N.png

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="TileSets/medieval-indoors-1.tsx"/>
+ <tileset firstgid="1025" name="medieval-indoors-2" tilewidth="32" tileheight="32">
+  <image source="TileSets/medieval-indoors-2.png" width="256" height="4096"/>
+  <tile id="144">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="LSolidHalfWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="160">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="LSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="DSolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="577">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="578">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="579">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="580">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="583">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="585">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="586">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="587">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="588">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="591">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="593">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="594">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="595">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="596">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="599">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="601">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="602">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="603">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="604">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="607">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="615">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="623">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="629">
+   <properties>
+    <property name="USolidHalfHeight" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2049" source="TileSets/terrain-set-1.tsx"/>
+ <layer name="Background" width="10" height="10">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJylys0KQEAUhuGzUXNXLgprrLFgpPyk/OQ6vVOzmIZCTj11evtqEdFo0aGx3Gb+HiMmzBgst5l/wYYdB1bLbeYPg28iJRJ7EnXdpbTMk//YFbTSU93snry9EzlWKIc=
+  </data>
+ </layer>
+ <layer name="Background2" width="10" height="10">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgMGNjgINUNBoZ2EHVpTAzMOQC6TQo7QwUdwFiVyDuZGFg6ALibhZUvUFAuWAgDgHiUCCeCJSfBMST0dRFAeWigTgGiGOBeCZQfhYQz0ZTBwJyTAwM8kCswITFsUhADSivDsQaBNQNBgAAmbYM4w==
+  </data>
+ </layer>
+ <layer name="Background3" width="10" height="10">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYCAP5DJDaCc2Mg0gEjgSMD8PKh9IQF0ZVD6RSPdm0thfuAAAoREDHQ==
+  </data>
+ </layer>
+ <layer name="Foreground" width="10" height="10">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8QIyJgUEciCWYiFOvy0Zb9+ACGUTaW0CC+wCrHAFj
+  </data>
+ </layer>
+ <layer name="Foreground2" width="10" height="10">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8YA0rA0McEHuwEVabBlQXQIQ6EIggUl0CUF02K2F1fkA1xUSoCyNCDQwAAOfnBH4=
+  </data>
+ </layer>
+ <layer name="Foreground3" width="10" height="10">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxbyMLAsIgAXgzEK4GYEFg9AtVtBOJNSBgENqGJbSbCLBgAAHmtFmc=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="10" height="10">
+  <object name="Outside" type="Collidable" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="Script" value="Teleport: map:Haven toX:24 toY:11"/>
+   </properties>
+  </object>
+  <object name="ThatGuy" type="NPC" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="Script" value="Message: I'm a guy in a house"/>
+    <property name="Script2" value="Wander: 2"/>
+    <property name="Spritesheet" value="charSheet1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

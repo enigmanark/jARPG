@@ -1,0 +1,60 @@
+
+--Tilesets--
+For non-walkable tiles, they must have a tile property of "Solid"
+For half-width non-walkable tiles aligned left use the tile property of "LSolidHalfWidth"
+For half-width non-walkable tiles aligned Right use the tile property of "RSolidHalfWidth"
+For half-height non-walkable tiles aligned up use the tile property of "USolidHalfHeight"
+For half-height non-walkable tiles aligned down use the tile property of "DSolidHalfHeight"
+For quarter-width non-walkable tiles aligned left use the tile property of "LSolidQuarterWidth"
+For quarter-width non-walkable tiles aligned right use the tile property of "RSolidQuarterWidth"
+For quarter-width non-walkable tiles aligned Down use the tile property of "DSolidQuarterHeight"
+For quarter-width non-walkable tiles aligned up use the tile property of "USolidQuarterHeight"
+
+--Tile Layers--
+There are two types of layers. Background layers, and Foreground layers.
+Background layers are drawn underneath the player. Foreground layers are drawn on top
+of the player. The tile layer must have the property "Background" or "Foreground" respectively.
+
+---Game Objects--
+All Game Objects must be placed on an object layer called "Objects"
+
+---Starter Map---
+
+For the first map to be loaded you place a Map Property of "StarterMap"
+Then place a Map Object with the name "Start" and the Type of "Position"
+
+
+--Game Object Types--
+	NPC: Map a Map Object with name of NPC, type of "NPC", and MUST have a Spritesheet property with the name of the sheet.
+	Activatable: Activates scripts when the activate button is pressed
+	Collidable: Activates scripts when player "collides" with it
+	
+
+--Scripts--
+Scripts must be numbered. Like this "Script" "Script2" "Script3" only 5 scripts per game object are allowed for
+now. Scripts can be attached to any Game Object.
+
+	Message Window: "Message: hey whats up"
+	Wander: "Wander: 10"
+	QuestStarter: 
+		There are 9 different quest templates available as of right now.
+		
+		Deliver: Up to 3 items are to be brought to the object this quest is attached to. Up to 3 rewards are available.
+		
+		DeliverTo: Similar to Deliver, but instead, you must specify ANOTHER game object to take the items to.
+		
+		DeliverToAndReturn: Similar to the last, but instead of turning in the quest to the deliveree, 
+			you turn in to the questgiver.
+			
+		CourierTo: Similar to the Deliver quests, but instead, the questGiver gives you the items to deliver 
+			to someone else.
+			
+		CourierToAndReturn: Similar to DeliverToAndReturn.
+		
+		ExploreAndReturn: The questgiver wants you to go to a map and that's it. Then return to it.
+		
+		ExploreAndGoTo: Similar to the last, except instead of returning to the questGiver, go to someone else.
+		
+		KillAndReturn: Kill the specified enemies and return to questGiver.
+		
+		KillAndGoTo: Similar to the last, except go to another NPC to turn in.

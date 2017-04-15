@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="TileSets/medieval-town-1.tsx"/>
+ <tileset firstgid="1025" source="TileSets/medieval-town-2.tsx"/>
+ <tileset firstgid="2049" source="TileSets/medieval-town-3.tsx"/>
+ <tileset firstgid="3073" name="medieval-town-4" tilewidth="32" tileheight="32">
+  <image source="TileSets/medieval-town-4.png" width="256" height="4096"/>
+  <tile id="69">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="USolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="LSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="RSolidQuarterWidth" value=""/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="DSolidQuarterHeight" value=""/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4097" source="TileSets/terrain-set-1.tsx"/>
+ <layer name="Background" width="32" height="30">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7AeFTD/autjJJBeUlVVVX1+Cf1LAQ==
+  </data>
+ </layer>
+ <layer name="Background2" width="32" height="30">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAD8Gw8AAAE=
+  </data>
+ </layer>
+ <layer name="Background3" width="32" height="30">
+  <properties>
+   <property name="Background" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAD8Gw8AAAE=
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="30">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAD8Gw8AAAE=
+  </data>
+ </layer>
+ <layer name="Foreground2" width="32" height="30">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAD8Gw8AAAE=
+  </data>
+ </layer>
+ <layer name="Foreground3" width="32" height="30">
+  <properties>
+   <property name="Foreground" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAD8Gw8AAAE=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="32" height="30"/>
+</map>
